@@ -10,12 +10,13 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_ebi9dim',
-      'template_lw060su',
+      `${process.env.REACT_APP_YOUR_SERVICE_ID}`,
+      `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`,
       form.current,
-      'x5RxtX5KR6PtBz3wk',
+      `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`,
     );
     e.target.reset();
+    console.log(process.env);
   };
 
   return (
