@@ -14,10 +14,18 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/ranilson-de-andrade-saraiva-junior/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/RanilsonJunior"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon2} alt="Icon" />
               </a>
               <a href="#">
