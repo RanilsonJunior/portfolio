@@ -11,10 +11,10 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      `${process.env.REACT_APP_YOUR_SERVICE_ID}`,
-      `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`,
+      `service_ebi9dim`,
+      `template_lw060su`,
       form.current,
-      `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`,
+      `x5RxtX5KR6PtBz3wk`,
     );
     e.target.reset();
     console.log(process.env);
