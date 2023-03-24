@@ -4,6 +4,13 @@ import { ProjectCard } from './ProjectCard';
 import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
+import projImg4 from '../assets/img/project-img4.png';
+import projImg5 from '../assets/img/project-img5.png';
+import projReactImg1 from '../assets/img/project-react-img1.png';
+import projReactImg2 from '../assets/img/project-react-img2.png';
+import projReactImg3 from '../assets/img/project-react-img3.png';
+import projReactImg4 from '../assets/img/project-react-img4.png';
+import projReactImg5 from '../assets/img/project-react-img5.png';
 import Nav from 'react-bootstrap/Nav';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import TrackVisibility from 'react-on-screen';
@@ -29,17 +36,40 @@ export const Projects = () => {
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg2,
+      imgUrl: projImg5,
+    },
+  ];
+
+  const projectsReacts = [
+    {
+      title: 'Business Startup',
+      description: 'Design & Development',
+      imgUrl: projReactImg1,
     },
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg3,
+      imgUrl: projReactImg2,
+    },
+    {
+      title: 'Business Startup',
+      description: 'Design & Development',
+      imgUrl: projReactImg3,
+    },
+    {
+      title: 'Business Startup',
+      description: 'Design & Development',
+      imgUrl: projReactImg4,
+    },
+    {
+      title: 'Business Startup',
+      description: 'Design & Development',
+      imgUrl: projReactImg5,
     },
   ];
 
@@ -90,7 +120,11 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  {`${process.env.REACT_APP_NAME}`}
+                  <Row>
+                    {projectsReacts.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">Vazio por enquanto</Tab.Pane>
               </Tab.Content>
