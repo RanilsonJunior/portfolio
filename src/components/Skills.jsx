@@ -1,10 +1,16 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
 import colorSharp from '../assets/img/color-sharp.png';
+import react from '../assets/img/react.svg';
+import html5 from '../assets/img/html5.svg';
+import css3 from '../assets/img/css3.svg';
+import bootstrap from '../assets/img/bootstrap.svg';
+import javascript from '../assets/img/javascript.svg';
+import node from '../assets/img/node.svg';
+import git from '../assets/img/git.svg';
+import mongodb from '../assets/img/mongodb.svg';
+import visualStudio from '../assets/img/visualStudio.svg';
 
 export const Skills = () => {
   const responsive = {
@@ -44,20 +50,40 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={react} alt="Image" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Identify</h5>
+                  <img src={html5} alt="Image" />
+                  <h5>HTML 5</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Logo Desingn</h5>
+                  <img src={css3} alt="Image" />
+                  <h5>CSS 3</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={bootstrap} alt="Image" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={javascript} alt="Image" />
+                  <h5>Java Script</h5>
+                </div>
+                <div className="item">
+                  <img src={node} alt="Image" />
+                  <h5>Node</h5>
+                </div>
+                <div className="item">
+                  <img src={git} alt="Image" />
+                  <h5>Git</h5>
+                </div>
+                <div className="item">
+                  <img src={mongodb} alt="Image" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={visualStudio} alt="Image" />
+                  <h5>Visual Studio</h5>
                 </div>
               </Carousel>
             </div>

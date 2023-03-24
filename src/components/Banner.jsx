@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../assets/img/header-img.svg';
 
 export const Banner = () => {
@@ -47,9 +46,9 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Bem vindo ao meu Portifolio</span>
             <h1>
-              {`Hi I'm webdecoded `}
+              {`Oi eu sou um programador `}
               <span className="wrap">{text}</span>
             </h1>
             {/* Seria sobre min. */}
@@ -59,9 +58,6 @@ export const Banner = () => {
               nisi voluptas eius aliquam quasi, alias saepe, nesciunt nemo esse
               quibusdam id?
             </p>
-            <button onClick={() => console.log('connect')}>
-              Let’s Connect <ArrowRightCircle size={25} />
-            </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />

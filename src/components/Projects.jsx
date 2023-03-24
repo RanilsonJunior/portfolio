@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row, Tab } from 'react-bootstrap';
+import { ProjectCard } from './ProjectCard';
 import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 import Nav from 'react-bootstrap/Nav';
-import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
@@ -72,10 +72,10 @@ export const Projects = () => {
                 className="nav-pills mb-5 justify-content-center align-items-center"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab One</Nav.Link>
+                  <Nav.Link eventKey="first">HTML 5 CSS 3</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                  <Nav.Link eventKey="second">React</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Tab Three</Nav.Link>
@@ -89,8 +89,8 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Projetos de React</Tab.Pane>
+                <Tab.Pane eventKey="third">Vazio por enquanto</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

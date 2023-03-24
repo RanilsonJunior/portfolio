@@ -13,7 +13,7 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            <div className="social-icon mt-4">
               <a
                 href="https://www.linkedin.com/in/ranilson-de-andrade-saraiva-junior/"
                 target="_blank"
@@ -28,11 +28,15 @@ export const Footer = () => {
               >
                 <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
+              <a
+                href="https://wa.me/5581996737188"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. Todos os direitos reservados</p>
           </Col>
         </Row>
       </Container>

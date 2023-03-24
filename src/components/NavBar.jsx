@@ -58,12 +58,13 @@ export const NavBar = () => {
             >
               Skills
             </Nav.Link>
+
             <Nav.Link
-              href="#projects"
+              href="#project"
               className={
-                activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'
+                activeLink === 'project' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={() => onUpdateActiveLink('projects')}
+              onClick={() => onUpdateActiveLink('project')}
             >
               Projects
             </Nav.Link>
@@ -75,22 +76,23 @@ export const NavBar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="Icon" />
               </a>
               <a
                 href="https://github.com/RanilsonJunior"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={navIcon2} alt="" />
+                <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a
+                href="https://wa.me/5581996737188"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}>
-              <span>Lets Connect</span>
-            </button>
           </span>
         </Navbar.Collapse>
       </Container>
