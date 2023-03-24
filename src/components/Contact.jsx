@@ -15,7 +15,7 @@ export const Contact = () => {
         `service_ebi9dim`,
         `template_lw060su`,
         form.current,
-        `9S2uQcJG6Zt-SuHOz`,
+        `mNDCvvoHRRLhBIMen`,
       )
       .then(
         (result) => {
