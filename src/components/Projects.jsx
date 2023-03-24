@@ -89,7 +89,9 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Projetos de React</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  {`${process.env.REACT_APP_NAME}`}
+                </Tab.Pane>
                 <Tab.Pane eventKey="third">Vazio por enquanto</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
