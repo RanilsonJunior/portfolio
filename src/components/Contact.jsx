@@ -10,12 +10,21 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      `service_ebi9dim`,
-      `template_lw060su`,
-      form.current,
-      `x5RxtX5KR6PtBz3wk`,
-    );
+    emailjs
+      .sendForm(
+        `${process.env.REACT_APP_YOUR_SERVICE_ID}`,
+        `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`,
+        form.current,
+        `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`,
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        },
+      );
     e.target.reset();
     console.log(process.env);
   };
