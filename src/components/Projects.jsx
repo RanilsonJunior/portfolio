@@ -19,56 +19,56 @@ import 'animate.css';
 export const Projects = () => {
   const projects = [
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Calendário',
+      description: 'https://custom-calendar-nine.vercel.app/',
       imgUrl: projImg1,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Home Parallax',
+      description: 'https://travel-s-jr-desafio-2.vercel.app/',
       imgUrl: projImg2,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Calculadora',
+      description: 'https://calculator-pink-nine.vercel.app/',
       imgUrl: projImg3,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'E-commerce',
+      description: 'https://vercel.com/ranilsonjunior/bicholandia',
       imgUrl: projImg4,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Jogo Mata Mosquito',
+      description: 'https://game-mata-mosquito-seven.vercel.app/',
       imgUrl: projImg5,
     },
   ];
 
   const projectsReacts = [
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'React Api',
+      description: 'https://react-api-jet.vercel.app/',
       imgUrl: projReactImg1,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Jogo da Velha',
+      description: 'https://jogo-da-velha-mauve.vercel.app/',
       imgUrl: projReactImg2,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Api de Filmes',
+      description: 'https://movies-lib-kappa.vercel.app/',
       imgUrl: projReactImg3,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Site E-commerce com Front-end e Back-end',
+      description: 'https://bicholandia.onrender.com/',
       imgUrl: projReactImg4,
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Site E-commerce',
+      description: 'https://bicholandia2.vercel.app/',
       imgUrl: projReactImg5,
     },
   ];
@@ -87,11 +87,10 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry`s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Esses são todos os projetos que eu fiz até agora, utilizando
+                    as linguagens que eu citei nas minhas skills, com certeza
+                    irei aumentar mais os projetos, tanto em quantidade como em
+                    qualidade.
                   </p>
                 </div>
               )}

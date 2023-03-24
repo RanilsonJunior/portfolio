@@ -15,7 +15,6 @@ import visualStudio from '../assets/img/visualStudio.svg';
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -40,9 +39,8 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry`s standard
-                dummy text.
+                Essas são as linguagens que eu utilizo e estou aperfeiçoando no
+                meu dia a dia.
               </p>
               <Carousel
                 responsive={responsive}

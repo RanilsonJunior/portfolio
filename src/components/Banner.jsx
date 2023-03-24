@@ -53,10 +53,8 @@ export const Banner = () => {
             </h1>
             {/* Seria sobre min. */}
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              maxime sint tenetur ex, possimus ab. Maiores laboriosam libero
-              nisi voluptas eius aliquam quasi, alias saepe, nesciunt nemo esse
-              quibusdam id?
+              Olá, bem vindo ao meu portfolio. Espero que goste dele, ele é o
+              meu bebê rsrsrsrs.
             </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
