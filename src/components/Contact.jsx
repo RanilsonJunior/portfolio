@@ -14,7 +14,7 @@ export const Contact = () => {
       `service_ebi9dim`,
       `template_lw060su`,
       form.current,
-      `I2fmhNl5VgTAOEHk6kIQ0`,
+      `V1is8pDOJnk22zPDa`,
     );
     e.target.reset();
     console.log(process.env);
