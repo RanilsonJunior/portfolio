@@ -88,7 +88,7 @@ export const Projects = () => {
                   <h2>Projects</h2>
                   <p>
                     Esses são todos os projetos que eu fiz até agora, utilizando
-                    as linguagens que eu citei nas minhas skills, com certeza
+                    as linguagens que eu citei nas minhas skills. Com certeza
                     irei aumentar mais os projetos, tanto em quantidade como em
                     qualidade.
                   </p>
