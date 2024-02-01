@@ -29,7 +29,7 @@ export const Footer = () => {
                 <img src={navIcon2} alt="Icon" />
               </a>
               <a
-                href="https://wa.me/5581996737188"
+                href="https://wa.me/5581991327717"
                 target="_blank"
                 rel="noopener noreferrer"
               >
